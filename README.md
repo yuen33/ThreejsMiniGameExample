@@ -1,8 +1,11 @@
 # Register
 Go to: https://mp.weixin.qq.com/wxopen/waregister?action=step1 to register
+
 Tips:
+
 1. Do not use your qq email address, if your wechat account has binded to that qq account... (Otherwise you cannot get a notion on this email address has been used, nor receive a validation email)
 2. Select the mini-game category instead of mini-programme
+3. If you are not about to publish it, you can skip this registering step. You can develop your mini-game ahead by using tourist-app-id.
 
 # How to Create an Empty ThreeJS Wechat Mini-Game Project
 You can follow this 1'37'' video:
@@ -13,17 +16,26 @@ You can follow this 1'37'' video:
 I'm using this 3rd party weapp-adapter: https://github.com/finscn/weapp-adapter
 
 Then, adding following lines in index.js:
+
 ```javascript
 window.performance.now = function(){
     return Date.now();
 };
 ```
-Reasons:
+
+Reasons: (It can be fixed by the official team while you're reading this article.)
 According to the threejs docs on [Clock](https://threejs.org/docs/#api/core/Clock):
-I should get the period in seconds, but I got in milliseconds in the mini-game:
+
+[![threejs docs Clock getDelta]](https://github.com/yuen33/ThreejsMiniGameExample/blob/master/Filesforgithub/threejsClockGetDelta.png?raw=true)
+
+I should get the period in seconds, but I got in milliseconds in the mini-game.
+
+See those:
+
+[![threejs docs on Clock]](https://github.com/yuen33/ThreejsMiniGameExample/blob/master/Filesforgithub/threejsClockDoc.png?raw=true)
 
 
-[threejs docs on Clock](https://github.com/yuen33/ThreejsMiniGameExample/blob/master/Filesforgithub/threejsClockDoc.png?raw=true)
+
 
 
 
