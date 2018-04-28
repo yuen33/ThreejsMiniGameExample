@@ -12,6 +12,15 @@ You can follow this 1'37'' video:
 
 [![How to create an empty threejs wechat minigame project](https://raw.githubusercontent.com/yuen33/ThreejsMiniGameExample/master/FilesforREADME/ytscrnsht.png)](https://youtu.be/FZxf3Z_QUeg)
 
+# How to test on the real phone:
+<img alt="touristappid" src="FilesforREADME/touristappid.png">
+If you are using the "touristappid" or storing your files on "http" address instead of "https", please Enable the Debugging Mode on phone after scanning the preview:
+<img alt="enableDebugging" src="FilesforREADME/enableDebugging.gif">
+
+Btw, for the published mini-game, you need to add your appid into the project.config.json file, and add the request address (which must be HTTPS) here:
+<img alt="https" src="FilesforREADME/https.png">
+
+
 # About weapp-adapter
 I'm using this 3rd party weapp-adapter: https://github.com/finscn/weapp-adapter
 
@@ -56,13 +65,6 @@ So do other ThreeJS 3D model Loaders.
 2. How to add skybox to the scene; (I downloaded the skybox images from: http://www.custommapmakers.org/skyboxes.php)
 3. How to import GLTF/GLB models (you have to put it online) and add lights;
 
-# How to test on the real phone:
-<img alt="touristappid" src="FilesforREADME/touristappid.png">
-If you are using the "touristappid" or storing your files on "http" address instead of "https", please Enable the Debugging Mode on phone after scanning the preview:
-<img alt="enableDebugging" src="FilesforREADME/enableDebugging.gif">
-
-Btw, for the published mini-game, you need to add your appid into the project.config.json file, and add the request address (which must be HTTPS) here:
-<img alt="https" src="FilesforREADME/https.png">
 
 
 
