@@ -32,7 +32,9 @@ I should get the period in seconds, but I got in milliseconds in the mini-game.
 
 See those:
 
-<img alt="threejs docs on Clock" src="Filesforgithub/threejsClockDoc.png" style="float: left; object-fit: cover; width: 50%; height: 20em; margin-right: 1em; ">
+<img alt="threejs docs on Clock" src="Filesforgithub/threejsClockDoc.png" style="float: left; object-fit: cover; width: 50%; height: 20em; margin-right: 1em; "><img alt="performance" src="Filesforgithub/performance.png" style="float: left; object-fit: cover; width: 50%; height: 20em; margin-right: 1em; ">
+
+
 
 
 
