@@ -31,6 +31,7 @@ According to the threejs docs on [Clock](https://threejs.org/docs/#api/core/Cloc
 I should get the period in seconds, but I got in milliseconds in the mini-game.
 
 Refs:
+
 <img alt="threejs docs on Clock" src="FilesforREADME/threejsClockDoc.png"><img alt="performance" src="FilesforREADME/performance.png">
 
 # Adding ThreeJS and OrbitControlsJS
@@ -52,7 +53,7 @@ So do other ThreeJS 3D model Loaders.
 
 # What else in the example code:
 1. How to add the wechat loading wiget with threejs loading manager;
-2. How to add skybox to the scene;
+2. How to add skybox to the scene; (I downloaded the skybox images from: http://www.custommapmakers.org/skyboxes.php)
 3. How to import GLTF/GLB models (you have to put it online) and add lights;
 
 # How to test on the real phone:
