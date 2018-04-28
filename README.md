@@ -63,7 +63,7 @@ So do other ThreeJS 3D model Loaders.
 # What else in the example code:
 1. How to add the wechat loading wiget with threejs loading manager;
 2. How to add skybox to the scene; (I downloaded the skybox images from: http://www.custommapmakers.org/skyboxes.php)
-3. How to import GLTF/GLB models (you have to put it online) and add lights;
+3. How to import GLTF/GLB models (you have to put it online) and add lights; (I was recently playing the game [ZooKeeper Battle](https://itunes.apple.com/au/app/zookeeper-battle/id548270497?mt=8), so I just made that cute rabbit in that game by online [threejs editor](https://rawgit.com/mrdoob/three.js/dev/editor/), and export the .glb file.)
 
 
 
