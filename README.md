@@ -27,15 +27,12 @@ Reasons: (It can be fixed by the official team while you're reading this article
 According to the threejs docs on [Clock](https://threejs.org/docs/#api/core/Clock):
 
 <img alt="threejs docs Clock getDelta" src="Filesforgithub/threejsClockGetDelta.png">
-<!--style="float: left; object-fit: cover; width: 45%; height: 20em; margin-right: 1em; "-->
 
 I should get the period in seconds, but I got in milliseconds in the mini-game.
 
 See those:
 
-[![threejs docs on Clock]](https://github.com/yuen33/ThreejsMiniGameExample/blob/master/Filesforgithub/threejsClockDoc.png?raw=true)
-
-
+<img alt="threejs docs on Clock" src="Filesforgithub/threejsClockDoc.png" style="float: left; object-fit: cover; width: 50%; height: 20em; margin-right: 1em; ">
 
 
 
