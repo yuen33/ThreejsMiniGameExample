@@ -26,7 +26,8 @@ window.performance.now = function(){
 Reasons: (It can be fixed by the official team while you're reading this article.)
 According to the threejs docs on [Clock](https://threejs.org/docs/#api/core/Clock):
 
-[![threejs docs Clock getDelta]](https://github.com/yuen33/ThreejsMiniGameExample/blob/master/Filesforgithub/threejsClockGetDelta.png?raw=true)
+<img alt="threejs docs Clock getDelta" src="Filesforgithub/threejsClockGetDelta.png">
+<!--style="float: left; object-fit: cover; width: 45%; height: 20em; margin-right: 1em; "-->
 
 I should get the period in seconds, but I got in milliseconds in the mini-game.
 
