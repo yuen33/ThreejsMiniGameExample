@@ -11,10 +11,19 @@ You can follow this 1'37'' video:
 
 # About weapp-adapter
 I'm using this 3rd party weapp-adapter: https://github.com/finscn/weapp-adapter
-Adding following lines in index.js:
+
+Then, adding following lines in index.js:
 ```javascript
 window.performance.now = function(){
     return Date.now();
 };
 ```
+Reasons:
+According to the threejs docs on [Clock](https://threejs.org/docs/#api/core/Clock):
+I should get the period in seconds, but I got in milliseconds in the mini-game:
+
+
+[threejs docs on Clock](https://github.com/yuen33/ThreejsMiniGameExample/blob/master/Filesforgithub/threejsClockDoc.png?raw=true)
+
+
 
