@@ -9,5 +9,12 @@ You can follow this 1'37'' video:
 
 [![How to create an empty threejs wechat minigame project](https://raw.githubusercontent.com/yuen33/ThreejsMiniGameExample/master/Filesforgithub/ytscrnsht.png)](https://youtu.be/FZxf3Z_QUeg)
 
-P.S. In this video:
-I used this 3rd party weapp-adapter: https://github.com/finscn/weapp-adapter
+# About weapp-adapter
+I'm using this 3rd party weapp-adapter: https://github.com/finscn/weapp-adapter
+Adding following lines in index.js:
+```javascript
+window.performance.now = function(){
+    return Date.now();
+};
+```
+
