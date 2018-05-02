@@ -37,7 +37,11 @@ manager.onLoad = function(){
     content: 'Tips: Tap the rabbit ear, starting recording; Tap its mouth to hear what you have recorded.',
     showCancel: false,
     confirmText:'Start!',
-    success: initControls(),
+    success: function(res){
+      if(res.confirm){
+        initControls();
+      }
+    },
   });
 }
 manager.onProgress = function(item, loaded, total){
